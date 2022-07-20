@@ -12,10 +12,31 @@ Intale a extensão `Code Runner` no vscode
 ou
 
 no Terminal: `node nome_arquivo`
+_____
 ## 🗎 About
-**Ecma Scprit** é a versão mais atualizada de js
+**➤ Ecma Scprit**
 
-*var* eu posso redeclarar Mas *let* não!
-* Preferir let
+é a versão mais atualizada de js
+
+
+**➤ var e let**
+
+*var* eu posso redeclarar MAS *let* não!
+Preferir let
+
+
+**➤ BOLEANOS**
+
+Colocar `!!` na frente mostra o valor lógico
+
+
+**➤ Template**
+
+Forma mais organizada de concatenar variaveis e literal
+Ex: 
+```console.log(`literal ${variavel}!`)```
+
+
+
 
 

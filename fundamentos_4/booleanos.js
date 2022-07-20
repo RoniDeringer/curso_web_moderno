@@ -7,7 +7,7 @@ console.log(isAtivo)
 isAtivo = 1
 console.log(!!isAtivo)
 
-console.log('os verdadeiros...')
+console.log('os verdadeiros...') 
 console.log(!!3)
 console.log(!!-1)
 console.log(!!' ')
@@ -27,6 +27,7 @@ console.log(!!(isAtivo = false))
 
 console.log('pra finalizar...')
 console.log(!!('' || null || 0 || ' '))
+Math.SQRT1_2
 
 let nome = 'Lucas'
 console.log(nome || 'Desconhecido')

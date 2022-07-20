@@ -4,7 +4,7 @@
 
     console.log(peso1, peso2)
     console.log(Number.isInteger(peso1))
-    console.log(Number.isInteger(peso2))
+    console.log(Number.isInteger(peso2)) // é inteiro? (true)
 
     const avaliacao1 = 9.871
     const avaliacao2 = 6.871
@@ -12,9 +12,9 @@
     const total = avaliacao1 * peso1 + avaliacao2 * peso2
     const media = total / (peso1 + peso2)
 
-    console.log(media.toFixed(2))
-    console.log(media.toString(2)) // em binário
-    console.log(typeof media)
+    console.log('casas decimais(toFixed): ',media.toFixed(2)) //casas decimais
+    console.log('Binario(toString): ',media.toString(2)) // em binário
+    console.log('Tipo (typeof): ',typeof media)
     console.log(typeof Number)
 }
 {
@@ -33,4 +33,19 @@
 
     console.log(area)
     console.log(typeof Math)
+
+    console.log("Consigo dividir string por int:")
+    console.log("10"/2)
+
+    const texto = "Roni Deringer"
+    console.log("charAt (posicao String)")
+    console.log(texto.charAt(3))
+
+    console.log("substring (intervalo de carecteres)")
+    console.log(texto.substring(0, 4))
+
+    console.log("Concat(concatena)")
+    console.log('Texto '.concat(texto).concat("!"))
+
+    
 }

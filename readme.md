@@ -46,7 +46,9 @@ Colocar `!!` na frente mostra o valor lógico
 
 Forma mais organizada de concatenar variaveis e literal
 Ex: 
-```console.log(`literal ${variavel}literal`)```
+```javascript
+console.log(`literal ${variavel}literal`)
+```
 
 
 ### ➤ Array
@@ -85,7 +87,19 @@ Não necessariamente precisa ter retorno
 * retorno implícito com apenas uma linha de código 
 
 
+### ➤ Hoisting
 
+O Js faz o "içamento" ele pega as variaveis e jogam pra cima
+
+ou seja:
+```javascript
+console.log(a) // 
+var a = 2
+```
+ele entende q eu tenho uma variavel `a` então ele nao da erro,
+só fala que é undefined
+
+_Obs não é muito usado. E só funciona pra var_
 
 
  

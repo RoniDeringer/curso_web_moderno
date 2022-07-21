@@ -34,5 +34,13 @@ console.log('pra finalizar...')
 console.log(!!('' || null || 0 || ' '),'\n')
 Math.SQRT1_2
 
-let nome = 'Lucas'
-console.log(nome || 'Desconhecido')
+
+var nome = 'Lucas' //true
+console.log(nome || 'Desconhecido','\n') //saida: Lucas
+/**
+ * Js opta imprimir o valor TRUE
+ * se tiver false ele imprime o outro
+ */
+ var nome = '' //false
+ console.log(nome || 'Desconhecido','\n') //saida: Desconhecido
+ 

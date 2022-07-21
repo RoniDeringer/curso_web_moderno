@@ -14,13 +14,13 @@ ou
 no Terminal: `node nome_arquivo`
 _____
 ## 🗎 About
-**➤ Ecma Scprit**
+### ➤ Ecma Scprit
 
 é a versão mais atualizada do js
 
 OBS: Js tem a tipagem fraca
 
-**➤ var e let**
+### ➤ var e let
 
 *var* eu posso redeclarar MAS *let* não!
 
@@ -28,19 +28,19 @@ Preferir let
 
 *const* constante, ou seja, não pode receber outro valor
 
-**➤ BOLEANOS**
+### ➤ BOLEANOS
 
 Colocar `!!` na frente mostra o valor lógico
 
 
-**➤ Template**
+### ➤ Template
 
 Forma mais organizada de concatenar variaveis e literal
 Ex: 
 ```console.log(`literal ${variavel}literal`)```
 
 
-**➤ Array**
+### ➤ Array
 
 Obs: Array é do tipo object
 
@@ -49,7 +49,7 @@ Obs: Array é do tipo object
 `array.push()` adiciona valor no próximo indice (parametro: valor a ser incluido no array)
 
 
-**➤ Atribuição de valor**
+### ➤ Atribuição de valor
 
 Objetos: a constante recebe o ENDEREÇO do objeto.
 Então se duas constantes tiverem o mesmo objeto, e eu alterar uma, eu *altero as duas*
@@ -57,7 +57,7 @@ Então se duas constantes tiverem o mesmo objeto, e eu alterar uma, eu *altero a
 Diferente de valores primitivos, que duas variaveis recebem o VALOR e pode ser mudado de *forma independente*
 
 
-**➤ null e undefined**
+### ➤ null e undefined
 
 `null:` ausencia de valor
 

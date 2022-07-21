@@ -13,6 +13,15 @@ ou
 
 no Terminal: `node nome_arquivo`
 _____
+## 🚨 Dicas
+
+* Preferivel deixar os códigos separados por escopo de bloco `{}`
+
+_Fuja do escopo global (principalmente no front)_
+
+
+
+_____
 ## 🗎 About
 ### ➤ Ecma Scprit
 
@@ -63,7 +72,40 @@ Diferente de valores primitivos, que duas variaveis recebem o VALOR e pode ser m
 
 `undefined:` variavel nao foi inicializada/definida
 
+### ➤ Função
+
+`Objeto` é uma função
+
+`Classe` é uma função
+
+Não necessariamente precisa ter retorno
+
+* Consigo armazenar uma função em uma variavel
+* Fazer uma função arrow `=>`
+* retorno implícito com apenas uma linha de código 
 
 
 
-AULA 49
+
+
+ 
+
+
+___
+>teste ~php
+~~~~php
+echo('Olá, '.$texto.' !');
+~~~~
+
+>teste `javascript
+```javascript 
+console.log(`Olá, ${nome}!`)
+```
+
+Aula   | Abordagem
+--------- | ------
+Fundamentos | Tipagens e funções de forma básica
+aula 2 | Conteudo 2
+aula 3 | Conteudo 3
+aula 4 |  Conteudo 4
+

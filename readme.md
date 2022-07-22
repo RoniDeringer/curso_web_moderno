@@ -14,7 +14,6 @@ ou
 no Terminal: `node nome_arquivo`
 _____
 ## 🚨 Dicas
-<<<<<<< HEAD
 =======
 
 * Preferivel deixar os códigos separados por escopo de bloco `{}`
@@ -42,7 +41,6 @@ Browser | window
 Referem-se a mesma coisa:
 > this, global, window
 
-<<<<<<< HEAD
 _*Obs:* No Node cada arquivo é um módulo_
 =======
 *const* constante, ou seja, não pode receber outro valor
@@ -112,7 +110,6 @@ só fala que é undefined
 _Obs não é muito usado. E só funciona pra var_
 
 
- 
 
 
 ___
@@ -133,4 +130,3 @@ aula 2 | Conteudo 2
 aula 3 | Conteudo 3
 aula 4 |  Conteudo 4
 
->>>>>>> 72005d53013486b8b812906926c74f236147a174

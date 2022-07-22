@@ -25,4 +25,7 @@ Node | global
 Browser | window
 todos | this
 
-_*OBS:* Posso usar o `this` apenas para um escopo (funcao, objeto, ...)_
+_*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
+
+
+AULA 76

@@ -5,7 +5,9 @@ produto1['desconto'] = 0.15
 
 console.log(produto1 ,'\n')
 
-
+const objeto3 = {}
+objeto3.nome = 'roni1'
+objeto3['nome'] = 'roni2'
 
 
 const produto2 = {
@@ -28,5 +30,4 @@ console.log(produto2)
 /**
  * TRANSFORMANDO PRODUTO1 EM JSON
  */
-
 const produtojson3 = '{"nome": "Celular", "preco": 1250.99, "desconto": 0.15}'

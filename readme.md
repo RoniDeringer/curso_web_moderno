@@ -13,57 +13,20 @@ ou
 
 no Terminal: `node nome_arquivo`
 _____
-## 🗎 About
-### ➤ Ecma Scprit
+## 🚨 Dicas
 
-é a versão mais atualizada do js
+* Preferivel deixar os códigos separados por escopo de bloco `{}`
 
-OBS: Js tem a tipagem fraca
+* _Fuja do escopo global (principalmente no front)_
 
-### ➤ var e let
+* `this` dentro de um escopo, refere-se apenas ao escopo, e fora, refere-se ao `window`
 
-*var* eu posso redeclarar MAS *let* não!
+Run | Name
+--------- | ------
+Node | global
+Browser | window
 
-Preferir let
+Referem-se a mesma coisa:
+> this, global, window
 
-*const* constante, ou seja, não pode receber outro valor
-
-### ➤ BOLEANOS
-
-Colocar `!!` na frente mostra o valor lógico
-
-
-### ➤ Template
-
-Forma mais organizada de concatenar variaveis e literal
-Ex: 
-```console.log(`literal ${variavel}literal`)```
-
-
-### ➤ Array
-
-Obs: Array é do tipo object
-
-`array.pop()` pega o último valor do array (sem parametros)
-
-`array.push()` adiciona valor no próximo indice (parametro: valor a ser incluido no array)
-
-
-### ➤ Atribuição de valor
-
-Objetos: a constante recebe o ENDEREÇO do objeto.
-Então se duas constantes tiverem o mesmo objeto, e eu alterar uma, eu *altero as duas*
-
-Diferente de valores primitivos, que duas variaveis recebem o VALOR e pode ser mudado de *forma independente*
-
-
-### ➤ null e undefined
-
-`null:` ausencia de valor
-
-`undefined:` variavel nao foi inicializada/definida
-
-
-
-
-AULA 49
+_*Obs:* No Node cada arquivo é um módulo_

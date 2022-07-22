@@ -51,7 +51,6 @@ function falar{
  ```
 
 
-
 ## ➤ BOLEANOS
 
 Colocar `!!` na frente mostra o valor lógico

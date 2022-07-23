@@ -21,7 +21,7 @@ _Fuja do escopo global (principalmente no front)_
 
 Onde | Tipo
 ------|------
-Node | global
+Node| global
 Browser | window
 todos | this
 

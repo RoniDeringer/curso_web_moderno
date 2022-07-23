@@ -21,7 +21,7 @@ Então se duas constantes tiverem o mesmo objeto, e eu alterar uma, eu *altero a
 Diferente de valores primitivos, que duas variaveis recebem o VALOR e pode ser mudado de *forma independente*
 
 
-## ➤ Ternário
+## ➤ Ternário[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/ternario.js)
 
 condicao ? TRUE : FALSE
 > exemplo com uma função arrow:
@@ -51,7 +51,7 @@ function falar{
  ```
 
 
-## ➤ BOLEANOS
+## ➤ BOLEANOS[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/booleanos.js)
 
 Colocar `!!` na frente mostra o valor lógico
 
@@ -64,7 +64,7 @@ Ex:
 console.log(`Olá ${nome}!`)
  ```
 
-## ➤ Array
+## ➤ Array[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/array.js)
 
 Obs: Array é do tipo object
 

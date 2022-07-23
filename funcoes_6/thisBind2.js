@@ -8,8 +8,22 @@ function Pessoa(){
     setInterval(function(){
         this.idade++
         console.log(this.idade)
-    }/*.bind(this)*/,1000)   //bind resolveria
+    }/*.bind(this)*/,1000)   //bind resolveria ! ! ! ! !
 }
-
+new Pessoa //NaN
 //eu instancio a função Pessoa para criar um objeto:
-new Pessoa  //retorna: NaN
+ //new Pessoa  //retorna: NaN
+
+
+
+console.log('- - - self - - - ')
+
+ 
+function Funcao1(){
+    this.atributo1 = 'Olá!'
+    const self = this  
+    setInterval(function(){
+        console.log(self.atributo1)
+    },500)
+}
+new Funcao1 //Olá!

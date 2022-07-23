@@ -56,6 +56,23 @@ let objeto1 = {
 let ouvir = falar.bind(objeto1) //assim funciona
 let ouvir2 = falar //undefined
 ~~~~
+## ➤ `self` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/thisBind.js)
+
+Nota Importante: self não deixa de ser uma gambiarra.<br>
+self é uma constante que vai receber `this` no contexto que será utilizado.<br>
+_*self* não é uma palavra reservada, pode ser qualquer nome_
+
+>ex: uma função dentro de outra função, e quero apontar o `this` pra minha primeira função, então o `self` recebe o `this` na primeira função pra ser utilizado fora do contexto
+~~~~javascript
+function Funcao1(){
+    this.atributo1 = 0
+    const self = this
+    funcao2(function(){
+        console.log(self.atributo1)
+    }, segundoParametro)
+}
+new Funcao1
+~~~~
 
 
 

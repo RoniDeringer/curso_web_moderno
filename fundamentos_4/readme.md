@@ -7,7 +7,7 @@ OBS: `Js` tem a tipagem fraca
 
 Diferente de `Java` e `TypeScript`
 
-## ➤ var[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/var.js) e let[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/let.js)
+## ➤ *var*[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/var.js) e *let*[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/let.js)
 
 *var* eu posso redeclarar MAS *let* não!
 
@@ -51,7 +51,6 @@ function falar{
 
 }
  ```
-
 
 ## ➤ BOLEANOS[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/booleanos.js)
 

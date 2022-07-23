@@ -39,8 +39,8 @@ const objeto1 = {
     } 
 }
 
-const ouvir1 = objeto1.falar.bind(objeto1) //assim funciona
+let ouvir1 = objeto1.falar.bind(objeto1) //assim funciona
 let ouvir2 = objeto1.falar //undefined
 
-ouvir1()//bom dia1
+ouvir1()//bom dia!
 ouvir2()//undefined

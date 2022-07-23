@@ -41,10 +41,10 @@ ___
 
 ## ➤ `this` e o `bind`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/thisBind.js)
 
-Lembrando que o this pode variar conforme o contexto em que ele é chamado.<br>
-O `bind`é usado pra "amarrar" o this a um determinado contexto
+Lembrando que o `this` pode variar conforme o contexto em que ele é chamado.<br>
+O `bind` é usado pra "amarrar" o this a um determinado contexto
 
-então vc passa o q vc quer, e no fim usa o `bind`passando como _parametro_ o q vc quer amarrar
+Então vc faz a chamada do que vc quer e chama o méotodo bind e passa o q vc quer contextualizar como parametro, e no fim usa o `bind` passando como _parametro_ o q vc quer amarrar
 >ex: uma função dentro de um objeto, e preciso usar essa função fora do objeto
 ~~~~javascript
 let objeto1 = {

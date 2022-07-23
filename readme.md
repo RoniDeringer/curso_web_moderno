@@ -5,13 +5,13 @@ ____
 ## 🚀 Run code
 Instale o [node.js](https://nodejs.org/en/)
 
-Intale a extensão `Code Runner` no vscode
 
+* Intale a extensão `Code Runner` no vscode<br>
 `Ctrl+Alt+N` Pra rodar o código 
 
 ou
 
-no Terminal: `node nome_arquivo`
+* no Terminal: `node nome_arquivo`
 _____
 ## 🚨 Dicas
     
@@ -39,6 +39,7 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
 
     arrow function: o this não varia, ele vai ser definido no momento da declaração da função.
 <br>
+<!-- <br> -->
 
 >bom saber:
 ~~~~javascript

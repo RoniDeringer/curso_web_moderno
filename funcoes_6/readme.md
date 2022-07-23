@@ -13,7 +13,7 @@
 _**Obs:** se eu não colocar return em uma função, ela retorna *Undefined*_
 
 Obs: Lembrando que posso passar a qtd. de parametros diferente do que é esperado na função. Rever: [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/funcoes1.js)
-
+ 
 ## ➤ Função Anonima 
 
 Uma função anonima é que não tem nome de função
@@ -58,9 +58,12 @@ primeiroparametro(5)
 
 
 
-## ➤ break | continue[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/estrutura_de_controle_5/breakContinue.js)
+## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/estrutura_de_controle_5/paramsVariaveis.js)
 
-* `break` ele SAI de um bloco (while, for, switch)
+`arguments` é um _array_ interno
 
-* `continue` ele PULA a próxima sentença de código(while, for, switch)
+Uma forma de passar quantos parametros eu quiser em uma função, ou seja:
+Torna-se flexivel a `quantide de parametros` utilizados
+
+
 

@@ -57,13 +57,27 @@ primeiroparametro(5)
 ~~~~
 
 
-
+___
 ## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramsVariaveis.js)
 
 `arguments` é um _array_ interno
 
-Uma forma de passar quantos parametros eu quiser em uma função, ou seja:
+Uma forma de passar quantos parametros eu quiser em uma função, ou seja:<br>
 Torna-se flexivel a `quantide de parametros` utilizados
+
+___
+
+## ➤ `default` Parametros padrão[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramPadrao.js)
+
+*Há preferir o padrão ES2015:*
+~~~~javascript
+function getSoma(a = 1, b = 2) {
+} 
+~~~~
+
+É definido um valor dafault dentro da função. <br> 
+E será utlizado caso for passado um valor falso.
+
 
 
 

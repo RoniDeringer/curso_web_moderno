@@ -30,3 +30,8 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
 Preferivel usar o `let` para variaveis comuns
 
 Versão atual: `Ecma script 2015`
+
+~~~~javascript
+!== undefined  //serve extritamente para undefined
+!= undefined //serve para false também
+~~~~

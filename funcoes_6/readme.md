@@ -58,7 +58,7 @@ primeiroparametro(5)
 
 
 
-## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/estrutura_de_controle_5/paramsVariaveis.js)
+## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramsVariaveis.js)
 
 `arguments` é um _array_ interno
 

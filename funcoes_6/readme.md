@@ -56,7 +56,8 @@ let objeto1 = {
 let ouvir = falar.bind(objeto1) //assim funciona
 let ouvir2 = falar //undefined
 ~~~~
-## ➤ `self` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/thisBind.js)
+___
+## ➤ `self` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/self.js)
 
 Nota Importante: self não deixa de ser uma gambiarra.<br>
 self é uma constante que vai receber `this` no contexto que será utilizado.<br>
@@ -73,6 +74,10 @@ function Funcao1(){
 }
 new Funcao1
 ~~~~
+___
+## ➤ `Arrow function` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/self.js)
+
+AULA 96
 
 
 

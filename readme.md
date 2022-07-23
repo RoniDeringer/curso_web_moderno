@@ -21,6 +21,8 @@ _____
 * Preferivel deixar os códigos separados por escopo de bloco `{}`
 * Fuja do escopo global (principalmente no front)
 
+<br>
+
 Onde | Tipo
 ------|------
 Node| global
@@ -32,13 +34,14 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
     É o objeto que está sendo referenciado naquele contexto de execução
     que no qual pode variar
 
-    Função comum: o this pode variar dependendo quem chama, this pode ser: objeto, window, elemento. Até consigo definir o this, pela função: bind
+    Função comum: o this pode variar dependendo quem chama, this pode ser: objeto, 
+    window, elemento. Até consigo definir o this, pela função: bind
 
     arrow function: o this não varia, ele vai ser definido no momento da declaração da função.
+<br>
 
-___
 >bom saber:
 ~~~~javascript
-!== undefined  //serve extritamente para undefined
+!== undefined  //serve estritamente para undefined
 != undefined //serve para false também
 ~~~~

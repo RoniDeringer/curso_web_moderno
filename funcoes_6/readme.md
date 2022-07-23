@@ -14,6 +14,52 @@ _**Obs:** se eu não colocar return em uma função, ela retorna *Undefined*_
 
 Obs: Lembrando que posso passar a qtd. de parametros diferente do que é esperado na função. Rever: [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/funcoes1.js)
  
+ 
+___
+## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramsVariaveis.js)
+
+`arguments` é um _array_ interno
+
+Uma forma de passar quantos parametros eu quiser em uma função, ou seja:<br>
+Torna-se flexivel a `quantide de parametros` utilizados
+
+___
+
+## ➤ `default` Parametros padrão[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramPadrao.js)
+
+*Há preferir o padrão ES2015:*
+~~~~javascript
+function getSoma(a = 1, b = 2) {
+} 
+~~~~
+
+É definido um valor dafault dentro da função. <br> 
+E será utlizado caso for passado um valor falso.
+
+___
+___
+
+## ➤ `this` e o `bind`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/thisBind.js)
+
+Lembrando que o this pode variar conforme o contexto em que ele é chamado.<br>
+O `bind`é usado pra "amarrar" o this a um determinado contexto
+
+então vc passa o q vc quer, e no fim usa o `bind`passando como _parametro_ o q vc quer amarrar
+>ex: uma função dentro de um objeto, e preciso usar essa função fora do objeto
+~~~~javascript
+let objeto1 = {
+    falar() {
+        console.log('bom dia!')
+    } 
+}
+
+let ouvir = falar.bind(objeto1) //assim funciona
+let ouvir2 = falar //undefined
+~~~~
+
+
+
+___
 ## ➤ Função Anonima 
 
 Uma função anonima é que não tem nome de função
@@ -55,28 +101,6 @@ getSoma(1,3)(5)
 const primeiroParametro = getSoma(1,3)
 primeiroparametro(5)
 ~~~~
-
-
-___
-## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramsVariaveis.js)
-
-`arguments` é um _array_ interno
-
-Uma forma de passar quantos parametros eu quiser em uma função, ou seja:<br>
-Torna-se flexivel a `quantide de parametros` utilizados
-
-___
-
-## ➤ `default` Parametros padrão[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramPadrao.js)
-
-*Há preferir o padrão ES2015:*
-~~~~javascript
-function getSoma(a = 1, b = 2) {
-} 
-~~~~
-
-É definido um valor dafault dentro da função. <br> 
-E será utlizado caso for passado um valor falso.
 
 
 

@@ -15,3 +15,16 @@ for(let x in vetor){
     }
     console.log(x) //0,1,2,3,4,6,7,8,9
 }
+
+
+console.log('\n-------------\n')
+console.log('\n break em um for mais a cima\n')
+console.log('\n-------------\n')
+
+forExterno: for (a in vetor){
+    for (b in vetor){
+        if (a==2 && b==3) break forExterno
+        console.log(`${a},${b}`) //0,1  0,2   0,3  até   2,2
+    }
+}
+//nao vale a pena fazer isso, melhor separar em metodo

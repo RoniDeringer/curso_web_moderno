@@ -3,10 +3,10 @@
 
 Estruturas|
 -----|
-`if`|
-`while`|
-`switch`|
-`for`|
+if`|
+while|
+switch|
+for|
 
 
 ## ➤ for in [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/estrutura_de_controle_5/forin.js)

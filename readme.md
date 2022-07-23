@@ -14,10 +14,12 @@ ou
 no Terminal: `node nome_arquivo`
 _____
 ## 🚨 Dicas
-
+    
+* Versão atual: `Ecma script 2015`
+* Preferivel usar `arrow function`
+* Preferivel usar o `let` para variaveis comuns
 * Preferivel deixar os códigos separados por escopo de bloco `{}`
-
-_Fuja do escopo global (principalmente no front)_
+* Fuja do escopo global (principalmente no front)
 
 Onde | Tipo
 ------|------
@@ -26,11 +28,16 @@ Browser | window
 todos | this
 
 _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
+### `this`
+    É o objeto que está sendo referenciado naquele contexto de execução
+    que no qual pode variar
 
-Preferivel usar o `let` para variaveis comuns
+    Função comum: o this pode variar dependendo quem chama, this pode ser: objeto, window, elemento. Até consigo definir o this, pela função: bind
 
-Versão atual: `Ecma script 2015`
+    arrow function: o this não varia, ele vai ser definido no momento da declaração da função.
 
+___
+>bom saber:
 ~~~~javascript
 !== undefined  //serve extritamente para undefined
 != undefined //serve para false também

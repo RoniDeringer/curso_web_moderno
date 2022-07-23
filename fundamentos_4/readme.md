@@ -87,7 +87,7 @@ Obs: Array é do tipo object
 Não necessariamente precisa ter retorno
 
 * Consigo armazenar uma função em uma variavel
-* Fazer uma função arrow `=>`
+* Fazer uma arrow function `=>`
 * retorno implícito com apenas uma linha de código 
 
 

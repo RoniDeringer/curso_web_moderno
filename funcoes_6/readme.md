@@ -52,7 +52,7 @@ let objeto1 = {
     } 
 }
 
-let ouvir = falar.bind(objeto1) //assim funciona
+let ouvir1 = falar.bind(objeto1) //assim funciona
 let ouvir2 = falar //undefined
 ~~~~
 ___

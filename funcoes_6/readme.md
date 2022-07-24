@@ -1,9 +1,10 @@
 # 🗎 About
 ## ⚙️ Geral:
 
-* Função em Js é `First-CLass` Object(Citizens)
-* `Higher-order` function (Função de alta ordem)
-
+* Função em Js é:
+    * `First-CLass` Object(Citizens)
+    * `Higher-order` function (Função de alta ordem)<br>
+    
         Isso significa q eu posso tratar uma função sendo um `dado`
         Ou seja, posso passar de _parametro_ pra outra função.
         Passar como _retorno_ de uma outra função.

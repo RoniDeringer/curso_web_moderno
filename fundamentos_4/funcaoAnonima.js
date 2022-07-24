@@ -16,4 +16,4 @@ const getSoma2 = (a,b) =>
 const getSoma3 = (a,b) => a+b
 
 //obs se eu tiver apenas um parametro, eu posso retirar os parenteses
-const numero = n => console.log(n )
+const numero = n => console.log(n)

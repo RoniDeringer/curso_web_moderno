@@ -25,10 +25,12 @@ Diferente de valores primitivos, que duas variaveis recebem o VALOR e pode ser m
 
 ## ➤ Ternário[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/ternario.js)
 
-condicao ? TRUE : FALSE
+recebe = condicao ? TRUE : FALSE
 > exemplo com uma função arrow:
 ```javascript
 const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+// ou 
+let notaAprovado =  (nota > 7) ? 'APROVADO' : 'REPROVADO'
  ```
 
 ## ➤ Erro [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/erro.js)
@@ -52,7 +54,7 @@ function falar{
 }
  ```
 
-## ➤ BOLEANOS[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/booleanos.js)
+## ➤ BOOLEANOS[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/booleanos.js)
 
 Colocar `!!` na frente mostra o valor lógico
 

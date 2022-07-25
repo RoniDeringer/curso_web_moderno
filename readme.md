@@ -6,7 +6,7 @@ ____
 Instale o [node.js](https://nodejs.org/en/)
 
 
-* Intale a extensão `Code Runner` no vscode<br>
+* Instale a extensão `Code Runner` no vscode<br>
 `Ctrl+Alt+N` Pra rodar o código 
 
 ou

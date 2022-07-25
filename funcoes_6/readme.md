@@ -84,7 +84,7 @@ _*Nota:* `this` associado ao contexto_
 ___
 ## ➤ Função Anonima 
 
-Uma função anonima é que não tem nome de função
+Uma função anonima é que não tem nome
 ___
 >ex: armazenando uma função dentro e uma *variável*
 ~~~~javascript

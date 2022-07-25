@@ -38,7 +38,7 @@ function getSoma(a = 1, b = 2) {
 E será utlizado caso for passado um valor falso.
 ___
 
-## ➤ `callback` Parametros padrão[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/callback1.js)
+## ➤ `callback` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/callback.js)
 É uma função que faz uma chamada pra cada elemento, retornando `true` ou `falso`
 ___
 

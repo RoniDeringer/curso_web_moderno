@@ -75,9 +75,9 @@ function Funcao1(){
 new Funcao1
 ~~~~
 ___
-## ➤ `Arrow function` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/self.js)
+## ➤ `Arrow function` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/arrowFunction1.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/arrowFunction2.js)
 
-AULA 96
+_*Nota:* `this` associado ao contexto_ 
 
 
 

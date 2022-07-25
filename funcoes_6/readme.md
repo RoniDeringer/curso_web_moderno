@@ -93,6 +93,10 @@ ___
 
 _Obs:_ Como se uma `função` fosse na verdade uma `Classe`
 
+~~~~javascript
+let Ferrari = new Carro 
+//Ferrari é um OBJETO q foi INSTANCIADO a partir da função Carro
+~~~~
 
 
 ___

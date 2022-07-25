@@ -33,7 +33,7 @@ console.log(Celta.getVelocidadeAtual())
 
 
 //2ª instancia
-let Ferrari = new Carro(350, 20)
+let Ferrari = new Carro(350, 20) //Ferrari é um OBJETO q foi INSTANCIADO a partir da função Carro
 Ferrari.acelerar()
 
 

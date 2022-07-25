@@ -46,3 +46,16 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
 !== undefined  //serve estritamente para undefined
 != undefined //serve para false também
 ~~~~
+
+___
+## 📋 Lista
+
+[Fundamentos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4) | [Funções](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6) | Object | Array
+----------| ------ | ------ | ------
+try catch | Arrow Function | - | -
+booleanos | callback | - | -
+var e let | POO | - | -
+Destructuring Objetct | self | - | -
+Ternário| bind | - | -
+  -| tipos Param | - | -
+  -| Contexto léxico | - | -

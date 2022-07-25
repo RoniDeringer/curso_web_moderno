@@ -36,7 +36,10 @@ function getSoma(a = 1, b = 2) {
 
 É definido um valor dafault dentro da função. <br> 
 E será utlizado caso for passado um valor falso.
+___
 
+## ➤ `callback` Parametros padrão[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/callback1.js)
+É uma função que faz uma chamada pra cada elemento, retornando `true` ou `falso`
 ___
 
 ## ➤ `this` e o `bind`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/thisBind.js)

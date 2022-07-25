@@ -54,7 +54,7 @@ function falar{
 }
  ```
 
-## ➤ BOOLEANOS[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/booleanos.js)
+## ➤ booleanos[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/booleanos.js)
 
 Colocar `!!` na frente mostra o valor lógico
 

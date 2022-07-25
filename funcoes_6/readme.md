@@ -81,6 +81,17 @@ ___
 ## ➤ `Arrow function` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/arrowFunction1.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/arrowFunction2.js)
 
 _*Nota:* `this` associado ao contexto_ 
+___
+## ➤ `POO`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/poo.js)
+
+* Conceitos de:
+    * instance
+    * constructor
+    * object
+    * set e get
+    * public e private
+
+_Obs:_ Como se uma `função` fosse na verdade uma `Classe`
 
 
 

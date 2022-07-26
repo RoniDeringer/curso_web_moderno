@@ -59,3 +59,4 @@ Destructuring Objetct | self | - | -
 Ternário| bind | - | -
   -| tipos Param | - | -
   -| Contexto léxico | - | -
+  -| Closure | - | -

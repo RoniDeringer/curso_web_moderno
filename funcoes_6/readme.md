@@ -97,8 +97,12 @@ _Obs:_ Como se uma `função` fosse na verdade uma `Classe`
 let Ferrari = new Carro 
 //Ferrari é um OBJETO q foi INSTANCIADO a partir da função Carro
 ~~~~
+___
+## ➤ `Closure`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/poo.js)
 
-
+*É o escopo que envolve a função quando ela é criada.*<br> Envolve tudo que está ao redor da função na hora q ela foi declarada.<br> Ou seja, tem tudo a ver
+com o `Contexto Léxico` <br>
+Esse escopo escopo permite eu ter acesso as variaveis externas à função.
 ___
 ## ➤ Função Anonima 
 

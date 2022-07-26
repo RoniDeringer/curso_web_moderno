@@ -3,7 +3,7 @@
  * arrow Function:
  */
  function Pessoa(){
-    this.idade = 00
+    this.idade = 0
     setInterval(()=>{
         this.idade++
         console.log(this.idade)

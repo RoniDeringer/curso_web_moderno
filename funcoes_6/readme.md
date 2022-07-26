@@ -98,7 +98,24 @@ let Ferrari = new Carro
 //Ferrari é um OBJETO q foi INSTANCIADO a partir da função Carro
 ~~~~
 ___
-## ➤ `Closure`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/poo.js)
+## ➤ Função `factory`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/factory.js)
+
+**É uma função que retorna um `Objeto`** <br>
+Ela tem o objetivo de fabricar uma _instância_ de objeto
+
+~~~~javascript
+function criarPessoa ( nomeParam = 'name', idadeParam = 0 ) {
+    return {
+        nome:  nomeParam,
+        idade: idadeParam
+    }
+}
+//retorna um objeto
+~~~~
+
+
+___
+## ➤ `Closure`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/closure.js)
 
 *É o escopo que envolve a função quando ela é criada.*<br> Envolve tudo que está ao redor da função na hora q ela foi declarada.<br> Ou seja, tem tudo a ver
 com o `Contexto Léxico` <br>

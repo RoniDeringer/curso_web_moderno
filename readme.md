@@ -60,3 +60,4 @@ Ternário| bind | - | -
   -| tipos Param | - | -
   -| Contexto léxico | - | -
   -| Closure | - | -
+  -| Factory | - | -

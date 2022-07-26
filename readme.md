@@ -62,3 +62,4 @@ Ternário| bind | - | -
   -| Closure | - | -
   -| Factory | - | -
   -| iife | - | -
+  -| call e apply | - | -

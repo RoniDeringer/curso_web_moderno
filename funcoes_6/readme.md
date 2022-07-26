@@ -113,13 +113,32 @@ function criarPessoa ( nomeParam = 'name', idadeParam = 0 ) {
 //retorna um objeto
 ~~~~
 
-
 ___
 ## ➤ `Closure`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/closure.js)
 
 *É o escopo que envolve a função quando ela é criada.*<br> Envolve tudo que está ao redor da função na hora q ela foi declarada.<br> Ou seja, tem tudo a ver
 com o `Contexto Léxico` <br>
 Esse escopo escopo permite eu ter acesso as variaveis externas à função.
+___
+
+## ➤ `iife`  [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/iife.js)
+
+Immediately Invoked Function Expression
+
+___
+
+## ➤ `call` & `apply` [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/iife.js)
+
+- São formas de como invocar uma função passando um contexto _(numeros)_ e passando seus parametros _(1.5, 20)_
+
+_*Obs:* O que muda de um para o outro é apenas como passam os parametros_
+
+~~~~javascript
+getSoma.call(numeros, 1.5, 20)
+getSoma.apply(numeros, [1.5, 20])
+// numeros seria um objeto
+~~~~
+
 ___
 ## ➤ Função Anonima 
 

@@ -61,3 +61,4 @@ Ternário| bind | - | -
   -| Contexto léxico | - | -
   -| Closure | - | -
   -| Factory | - | -
+  -| iife | - | -

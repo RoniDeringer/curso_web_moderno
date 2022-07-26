@@ -50,7 +50,7 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
 ___
 ## 📋 Lista
 
-[Fundamentos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4) | [Funções](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6) | Object | Array
+[Fundamentos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4) | [Funções](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6) | [Object](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7) | Array
 ----------| ------ | ------ | ------
 try catch | Arrow Function | - | -
 booleanos | callback | - | -

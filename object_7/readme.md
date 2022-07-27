@@ -13,10 +13,12 @@ Criando objeto apartir de função, levando em consideração Paradigma OO
 
 Existe somente `publico` e `privado`<br>
 Publico é usado o _this_<br>
+
 Conceitos|
 ---------|
 factory|
-create|
+Object.create|
 construct|
 Json>Object|
+
 ___

@@ -1,4 +1,4 @@
-# 🗎 About
+# 📌 About
 ## ➤ Ecma Scprit
 
 é a versão mais atualizada do js

@@ -15,3 +15,6 @@ function Produto(nome, preco, desconto){
         return preco * (1- desc)
     }
 }
+
+const p1 = new Produto('caneta', 1.99, 0.1)
+const p2 = new Produto('Notebook', 200.00, 0.15)

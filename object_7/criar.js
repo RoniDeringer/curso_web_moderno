@@ -38,3 +38,9 @@ const f1 = criarFuncionario('joao', 1500,1)
 //Object.create
 const filha = Object.create(null)
 filha.nome = 'Ana'
+
+
+// Uma função que retorna Objeto:
+//transformo o JSON em Objeto
+const fromJson = JSON.parse('{"info": "Sou um JSON"')
+console.log(fromJSON.info)

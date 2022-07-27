@@ -4,18 +4,16 @@
 * Objeto em Js é:
     * Coleção dinâmica de pares `chave/valor` 
 
-_**Obs:** se eu não colocar return em uma função, ela retorna *Undefined*_
-
-Obs: Lembrando que posso passar a qtd. de parametros diferente do que é esperado na função. Rever: [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4/funcoes1.js)
  
  
 ___
-## ➤ `arguments` Parametros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6/paramsVariaveis.js)
+## ➤ Criando Objeto[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/criar.js)
 
-`arguments` é um _array_ interno
+Criando objeto apartir de função, levando em consideração Paradigma OO
 
-Uma forma de passar quantos parametros eu quiser em uma função, ou seja:<br>
-Torna-se flexivel a `quantidade de parametros` utilizados
+Existe somente `publico` e `privado`<br>
+Publico é usado o _this_<br>
+Privado é normal
 
 ___
 

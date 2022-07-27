@@ -4,7 +4,7 @@
 * Objeto em Js é:
     * Coleção dinâmica de pares `chave/valor` 
 
- 
+ `freeze` método q passa como parametro um objeto. Não deixa alterar mais o objeto.
  
 ___
 ## ➤ Criando Objeto[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/criar.js)
@@ -20,5 +20,7 @@ factory|
 Object.create|
 construct|
 Json>Object|
+
+
 
 ___

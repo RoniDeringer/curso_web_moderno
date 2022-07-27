@@ -21,6 +21,21 @@ Object.create|
 construct|
 Json>Object|
 
+___
+## ➤ ES2015[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)
 
+Com esse novo padrão do Ecma Script 2015, eu susbstituo:
+~~~~javascript
+const a = 1
+const b = 2
+const c = 3
+~~~~
+~~~~javascript
+const objeto 1 = { a: a, b: b, c: c }
+~~~~
+**Por isso:**
+~~~~javascript
+const objeto 2 = {a, b, c}
+~~~~
 
 ___

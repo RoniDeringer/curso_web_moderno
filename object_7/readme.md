@@ -31,7 +31,7 @@ ex: `_nome`
 _**Obs:** Os Getters e Setters são as únicas funções que podem ter o mesmo nome <br>
 e ser passado o número diferente de parâmetros_
 
-O JS entende quando voce quer chamar o _get_ ou o _set_. 
+O JS entende quando voce quer chamar o _get_ ou o _set_.  
  
 ~~~~javascript
    let _valor
@@ -44,10 +44,22 @@ O JS entende quando voce quer chamar o _get_ ou o _set_.
         this._valor = valor
     }
 ~~~~
+___
+## ➤ Funções com Object[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/funcoes.js)
+
+**Funções:**
+
+Nome | O que faz
+---|---
+keys | retorna as chaves do objeto
+values | retorna os valores do objeto
+entries | retorna chave/valor dentro de arrays separados
+defineProperty | Defino algumas propriedades de um valor
+assign | Como se fosse um merge de objetos
 
 
 ___
-## ➤ ES2015[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)
+## ➤ **ES2015**[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)
 
 * No arquivo de exemplo, mostra:
     * nova forma de receber valor a partir de variaveis
@@ -60,6 +72,7 @@ const a = 1
 const b = 2
 const c = 3
 ~~~~
+**Isso:**
 ~~~~javascript
 const objeto 1 = { a: a, b: b, c: c }
 ~~~~

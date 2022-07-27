@@ -16,6 +16,6 @@ const sequencia ={
  */
 
 
-sequencia.valor += 5 //6
+sequencia.valor += 5 //chamou o SET
 
-console.log(sequencia._valor)
+console.log(sequencia._valor)  //chamou o GET

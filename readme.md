@@ -55,9 +55,9 @@ ___
 try catch | Arrow Function | Criar | -
 booleanos | callback | Get e Set | -
 var e let | POO | Padrão ES15 | -
-Destructuring Objetct | self | - | -
-Ternário| bind | - | -
-  -| tipos Param | - | -
+Destructuring Objetct | self | freeze | -
+Ternário| bind | keys | -
+  -| tipos Param | values | -
   -| Contexto léxico | - | -
   -| Closure | - | -
   -| Factory | - | -

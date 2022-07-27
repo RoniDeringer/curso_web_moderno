@@ -13,7 +13,9 @@ Criando objeto apartir de função, levando em consideração Paradigma OO
 
 Existe somente `publico` e `privado`<br>
 Publico é usado o _this_<br>
-Privado é normal
-
-*Usado também a função `factory`*
+Conceitos|
+---------|
+factory|
+create|
+construct|
 ___

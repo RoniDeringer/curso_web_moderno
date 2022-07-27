@@ -6,6 +6,7 @@
 
  `freeze` método q passa como parametro um objeto. Não deixa alterar mais o objeto.
  
+ colocar: `_` antes de uma variavel significa que <br>essa variavel vai ser usada apenas internamente _ex:_ `_valor` 
 ___
 ## ➤ Criando Objeto[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/criar.js)
 
@@ -20,6 +21,30 @@ factory|
 Object.create|
 construct|
 Json>Object|
+
+___
+## ➤ `Get` e `Set`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/GetSet.js)
+
+**Nota:** Preferivel eu usar o padrão de declaraçãod e variavel com `_` na frente.
+ex: `_nome`
+
+_**Obs:** Os Getters e Setters são as únicas funções que podem ter o mesmo nome <br>
+e ser passado o número diferente de parâmetros_
+
+O JS entende quando voce quer chamar o _get_ ou o _set_. 
+ 
+~~~~javascript
+   let _valor
+
+   get valor(){
+        return this._valor
+    }
+
+    set valor(valor){
+        this._valor = valor
+    }
+~~~~
+
 
 ___
 ## ➤ ES2015[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)

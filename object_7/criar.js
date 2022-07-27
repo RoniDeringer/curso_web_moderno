@@ -35,9 +35,15 @@ function criarFuncionario (nome, salario, faltas){
 const f1 = criarFuncionario('joao', 1500,1)
 
 
+
+
+
 //Object.create
 const filha = Object.create(null)
 filha.nome = 'Ana'
+
+
+
 
 
 // Uma função que retorna Objeto:

@@ -24,6 +24,11 @@ Json>Object|
 ___
 ## ➤ ES2015[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)
 
+* No arquivo de exemplo, mostra:
+    * nova forma de receber valor a partir de variaveis
+    * funções dentro de Objeto
+
+
 Com esse novo padrão do Ecma Script 2015, eu susbstituo:
 ~~~~javascript
 const a = 1

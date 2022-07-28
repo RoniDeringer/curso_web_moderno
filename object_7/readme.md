@@ -26,7 +26,6 @@ ___
 * **Nota:** Preferivel eu usar o padrão de declaração de variavel com `_` na frente.
 ex: `_nome`
 
-* **Nota2:** Preferivel Não mexer no objeto prototype.
 
 * _**Obs:** Os Getters e Setters são as únicas funções que podem ter o mesmo nome <br>
 e ser passado o número diferente de parâmetros_
@@ -46,16 +45,24 @@ e ser passado o número diferente de parâmetros_
     }
 ~~~~
 ___
-## ➤ Herança [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca1.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca2.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca3.js)
+## ➤ **Herança** 
+
+1. [Conceito de prototype](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca1.js)
+2. [exemplo de prototype com varios objetos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca2.js)
+3. [Conceito de super, shadowing, setPrototypeOf](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca3.js)
+4. [Object Create](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca4.js)
+
 
 Objetivo da herança é pra reutilizar código
 <br>**Preferir composição**
-  
-    Um objeto tem uma referência para o seu atributo protótipo
-    Essa é a forma de como o JS define herança
 
-    Esse ATRIBUTO __proto__ (2 underline) tem referencia(aponta) para um OBJETO chamado prototype
-    Que se referencia a um super objeto, o Objeto(classe) "base"
+* **Nota:** Preferivel Não mexer no objeto prototype.
+<br>
+
+        Um objeto tem uma referência para o seu atributo protótipo
+        Essa é a forma de como o JS define herança
+        Esse ATRIBUTO __proto__ (2 underline) tem referencia(aponta) para um OBJETO chamado prototype
+        Que se referencia a um super objeto, o Objeto(classe) "base"
 
 **Obs:** Uma `function` também é um objeto, ou seja, também tem prototype
 

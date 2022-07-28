@@ -43,6 +43,20 @@ O JS entende quando voce quer chamar o _get_ ou o _set_.
     }
 ~~~~
 ___
+## ➤ Herança [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca.js)
+
+Objetivo da herança é pra reutilizar código
+<br>**Preferir composição**
+  
+    Um objeto tem uma referência para o seu atributo protótipo
+    Essa é a forma de como o JS define herança
+
+    Esse atributo __proto__ (2 underline) tem referencia para um objeto chamado prototype
+    Que se referencia a um super objeto, o Objeto(classe) "base"
+
+
+
+___
 ## ➤ Funções com Object[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/funcoes.js)
 
 **Funções:**
@@ -55,7 +69,6 @@ entries | retorna chave/valor dentro de arrays separados
 defineProperty | Defino algumas propriedades de um valor
 assign | Como se fosse um merge de objetos
 freeze | Não deixa alterar mais o objeto.
-
 
 ___
 ## ➤ **ES2015**[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)

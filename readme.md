@@ -63,4 +63,6 @@ Ternário| bind | keys | -
   -| Factory | assign | -
   -| iife | herança | -
   -| call e apply | prototype | -
+  -| - | super | -
+  -| - | shadowing | -
 

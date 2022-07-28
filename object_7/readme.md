@@ -23,14 +23,17 @@ Json>Object|
 ___
 ## ➤ `Get` e `Set`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/GetSet.js)
 
-**Nota:** Preferivel eu usar o padrão de declaraçãod e variavel com `_` na frente.
+* **Nota:** Preferivel eu usar o padrão de declaração de variavel com `_` na frente.
 ex: `_nome`
 
-_**Obs:** Os Getters e Setters são as únicas funções que podem ter o mesmo nome <br>
+* **Nota2:** Preferivel Não mexer no objeto prototype.
+
+* _**Obs:** Os Getters e Setters são as únicas funções que podem ter o mesmo nome <br>
 e ser passado o número diferente de parâmetros_
 
-O JS entende quando voce quer chamar o _get_ ou o _set_.  
- 
+* _**Obs:** O JS entende quando voce quer chamar o _get_ ou o _set_.
+
+> Declaração de Getter e Setter 
 ~~~~javascript
    let _valor
 
@@ -43,7 +46,7 @@ O JS entende quando voce quer chamar o _get_ ou o _set_.
     }
 ~~~~
 ___
-## ➤ Herança [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca1.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca2.js)
+## ➤ Herança [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca1.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca2.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca3.js)
 
 Objetivo da herança é pra reutilizar código
 <br>**Preferir composição**
@@ -62,6 +65,14 @@ const pai = {}
 const filho = { __proto__:pai, atributos:'abc' }
 ~~~~
 
+**super:** Caso o objeto filho e o pai tenham o mesmo atributo, <br> e eu queira referenciar o do objeto pai, <br> eu uso o: `super`
+
+**shadowing:** Quando eu `sobreescrevo` um metodo ou atributo do objeto pai
+
+**setPrototypeOf** Método pra referenciar Objeto pai e filho. Exemplo:
+~~~~javascript
+Object.setPrototypeOf(objetoFilho, objetoPai)
+~~~~
 ___
 ## ➤ Funções com Object[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/funcoes.js)
 
@@ -69,12 +80,13 @@ ___
 
 Nome | O que faz
 ---|---
-keys | retorna as chaves do objeto
-values | retorna os valores do objeto
-entries | retorna chave/valor dentro de arrays separados
-defineProperty | Defino algumas propriedades de um valor
-assign | Como se fosse um merge de objetos
+keys | retorna as chaves do objeto.
+values | retorna os valores do objeto.
+entries | retorna chave/valor dentro de arrays separados.
+defineProperty | Defino algumas propriedades de um valor.
+assign | Como se fosse um merge de objetos.
 freeze | Não deixa alterar mais o objeto.
+setPrototypeOf | Estabelece herança de objetos.
 
 ___
 ## ➤ **ES2015**[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)

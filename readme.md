@@ -65,4 +65,7 @@ Ternário| bind | keys | -
   -| call e apply | prototype | -
   -| - | super | -
   -| - | shadowing | -
+  -| - | Object.create | -
+  -| - | for key | -
+  -| - | hasOwnProperty | -
 

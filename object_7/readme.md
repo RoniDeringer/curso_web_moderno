@@ -50,7 +50,7 @@ ___
 1. [Conceito de prototype](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca1.js)
 2. [exemplo de prototype com varios objetos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca2.js)
 3. [Conceito de super, shadowing, setPrototypeOf](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca3.js)
-4. [Object Create](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca4.js)
+4. [Object.create e for key](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca4.js)
 
 
 Objetivo da herança é pra reutilizar código
@@ -94,6 +94,7 @@ defineProperty | Defino algumas propriedades de um valor.
 assign | Como se fosse um merge de objetos.
 freeze | Não deixa alterar mais o objeto.
 setPrototypeOf | Estabelece herança de objetos.
+hasOwnProperty | Mostra as chaves relacionada somente ao objeto.
 
 ___
 ## ➤ **ES2015**[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)

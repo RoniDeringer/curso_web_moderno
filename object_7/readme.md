@@ -43,7 +43,7 @@ O JS entende quando voce quer chamar o _get_ ou o _set_.
     }
 ~~~~
 ___
-## ➤ Herança [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca.js)
+## ➤ Herança [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca1.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/heranca2.js)
 
 Objetivo da herança é pra reutilizar código
 <br>**Preferir composição**
@@ -56,6 +56,11 @@ Objetivo da herança é pra reutilizar código
 
 **Obs:** Uma `function` também é um objeto, ou seja, também tem prototype
 
+Pra mim referenciar q um Objeto é `pai` de outro objeto:
+~~~~javascript
+const pai = {}
+const filho = { __proto__:pai, atributos:'abc' }
+~~~~
 
 ___
 ## ➤ Funções com Object[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/funcoes.js)

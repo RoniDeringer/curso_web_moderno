@@ -48,7 +48,7 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
 ~~~~
 
 ___
-## 📋 Lista
+## 📋 Lista de conceitos 
 
 [Fundamentos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4) | [Funções](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6) | [Object](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7) | [Array]()
 ----------| ------ | ------ | ------
@@ -61,6 +61,6 @@ Ternário| bind | keys | -
   -| Contexto léxico | entries | -
   -| Closure | defineProperty | -
   -| Factory | assign | -
-  -| iife | - | -
-  -| call e apply | - | -
+  -| iife | herança | -
+  -| call e apply | prototype | -
 

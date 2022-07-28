@@ -51,9 +51,10 @@ Objetivo da herança é pra reutilizar código
     Um objeto tem uma referência para o seu atributo protótipo
     Essa é a forma de como o JS define herança
 
-    Esse atributo __proto__ (2 underline) tem referencia para um objeto chamado prototype
+    Esse ATRIBUTO __proto__ (2 underline) tem referencia(aponta) para um OBJETO chamado prototype
     Que se referencia a um super objeto, o Objeto(classe) "base"
 
+**Obs:** Uma `function` também é um objeto, ou seja, também tem prototype
 
 
 ___

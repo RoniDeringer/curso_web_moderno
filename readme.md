@@ -58,8 +58,9 @@ var e let | POO | Padrão ES15 | -
 Destructuring Objetct | self | freeze | -
 Ternário| bind | keys | -
   -| tipos Param | values | -
-  -| Contexto léxico | - | -
-  -| Closure | - | -
-  -| Factory | - | -
+  -| Contexto léxico | entries | -
+  -| Closure | defineProperty | -
+  -| Factory | assign | -
   -| iife | - | -
   -| call e apply | - | -
+

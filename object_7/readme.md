@@ -4,8 +4,6 @@
 * Objeto em Js é:
     * Coleção dinâmica de pares `chave/valor` 
 
- `freeze` método q passa como parametro um objeto. Não deixa alterar mais o objeto.
- 
  colocar: `_` antes de uma variavel significa que <br>essa variavel vai ser usada apenas internamente _ex:_ `_valor` 
 ___
 ## ➤ Criando Objeto[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/criar.js)
@@ -56,6 +54,7 @@ values | retorna os valores do objeto
 entries | retorna chave/valor dentro de arrays separados
 defineProperty | Defino algumas propriedades de um valor
 assign | Como se fosse um merge de objetos
+freeze | Não deixa alterar mais o objeto.
 
 
 ___

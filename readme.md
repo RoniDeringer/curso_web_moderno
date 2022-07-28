@@ -68,4 +68,6 @@ Ternário| bind | keys | -
   -| - | Object.create | -
   -| - | for key | -
   -| - | hasOwnProperty | -
+  -| - | preventExtensions | -
+  -| - | seal | -
 

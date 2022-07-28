@@ -21,6 +21,16 @@ construct|
 Json>Object|
 
 ___
+## ➤ `Json` e `Object`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/GetSet.js)
+Json é um formato textual, então não executa funções
+
+**Obs:** Se atentar ao formato das aspas:
+~~~~javascript
+ JSON.parse( '{ "a": 1, "b": 2.6, "c": "abc" }' )
+~~~~
+
+
+___
 ## ➤ `Get` e `Set`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/GetSet.js)
 
 * **Nota:** Preferivel eu usar o padrão de declaração de variavel com `_` na frente.
@@ -95,6 +105,8 @@ assign | Como se fosse um merge de objetos.
 freeze | Não deixa alterar mais o objeto.
 setPrototypeOf | Estabelece herança de objetos.
 hasOwnProperty | Mostra as chaves relacionada somente ao objeto.
+preventExtensions | Não permite editar nem extender o objeto, apenas excluir.
+seal | Não consegue adicionar e excluir os elementos, apenas mexer os que já tem
 
 ___
 ## ➤ **ES2015**[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/padraoES2015.js)

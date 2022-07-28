@@ -21,13 +21,17 @@ construct|
 Json>Object|
 
 ___
-## ➤ `Json` e `Object`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/GetSet.js)
+## ➤ `Json` e `Object`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/json.js)
 Json é um formato textual, então não executa funções
 
 **Obs:** Se atentar ao formato das aspas:
 ~~~~javascript
  JSON.parse( '{ "a": 1, "b": 2.6, "c": "abc" }' )
 ~~~~
+___
+## ➤ `Classe`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/classe.js)
+
+
 
 
 ___

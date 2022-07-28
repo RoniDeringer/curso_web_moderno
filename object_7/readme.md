@@ -31,8 +31,7 @@ Json é um formato textual, então não executa funções
 ___
 ## ➤ `Classe`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/classe.js)
 
-
-
+Pouco usado, pode ser usado quando usar react q é baseado em classe.
 
 ___
 ## ➤ `Get` e `Set`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/GetSet.js)

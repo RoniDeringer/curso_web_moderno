@@ -70,4 +70,5 @@ Ternário| bind | keys | -
   -| - | hasOwnProperty | -
   -| - | preventExtensions | -
   -| - | seal | -
+  -| - | Classe | -
 

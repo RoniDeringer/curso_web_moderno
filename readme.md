@@ -52,10 +52,10 @@ ___
 
 [Fundamentos](https://github.com/RoniDeringer/curso_web_moderno/blob/master/fundamentos_4) | [Funções](https://github.com/RoniDeringer/curso_web_moderno/blob/master/funcoes_6) | [Object](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7) | [Array](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8)
 ----------| ------ | ------ | ------
-try catch | Arrow Function | Criar | splice
-booleanos | callback | Get e Set | -
-var e let | POO | Padrão ES15 | -
-Destructuring Objetct | self | freeze | -
+try catch | Arrow Function | Criar | pop e push
+booleanos | callback | Get e Set | shift e unshift
+var e let | POO | Padrão ES15 | splice
+Destructuring Objetct | self | freeze | slice
 Ternário| bind | keys | -
   -| tipos Param | values | -
   -| Contexto léxico | entries | -

@@ -5,7 +5,7 @@
 ___
 ## ➤ Revisão[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/revisao.js)
 
-`splice` 
+`splice` incluir, excluir, modificar elementos
 
 
 ___

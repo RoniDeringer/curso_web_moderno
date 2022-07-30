@@ -35,9 +35,13 @@ ___
 
 ## ➤ reduce[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/reduce.js)
 
-Criar um novo array, filtrando com condições.
+Primeiro parametro é o `acumulador`, ou seja, a "concatenação" dos indices anterios. **Valor inicial**<br> 
+Segundo parametro é o próximo indice
+Terceiro parametro é o indice
+Quarto parametro é o array inteiro
 
-Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
+Obs: Caso voce nao passar valor inicial, ele vai pegar os valores de indice _0_ e _1_
+
 ___
 ## ➤ Métodos[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/metodos.js)
 

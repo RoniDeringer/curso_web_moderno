@@ -5,6 +5,13 @@
     * Coleção dinâmica de pares `chave/valor` 
 
  colocar: `_` antes de uma variavel significa que <br>essa variavel vai ser usada apenas internamente _ex:_ `_valor` 
+
+>Função para transformar um json em objeto:
+~~~javascript
+const resultado = json => JSON.parse(json)
+~~~
+
+
 ___
 ## ➤ Criando Objeto[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/object_7/criar.js)
 

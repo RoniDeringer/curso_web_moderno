@@ -56,9 +56,9 @@ try catch | Arrow Function | Criar | pop e push
 booleanos | callback | Get e Set | shift e unshift
 var e let | POO | Padrão ES15 | splice
 Destructuring Objetct | self | freeze | slice
-Ternário| bind | keys | -
-  -| tipos Param | values | -
-  -| Contexto léxico | entries | -
+Ternário| bind | keys | forEach
+  -| tipos Param | values | map
+  -| Contexto léxico | entries | reduce
   -| Closure | defineProperty | -
   -| Factory | assign | -
   -| iife | herança | -

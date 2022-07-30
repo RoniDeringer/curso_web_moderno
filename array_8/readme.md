@@ -8,12 +8,23 @@ ___
 `splice` incluir, excluir, modificar elementos
 ___
 
-## ➤ forEach[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/metodos.js)
+## ➤ forEach[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/foreach.js)
 
 o forEach tem como parâmetro uma função de callback, que é chamada pra cada indice do array
 
 Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
 *Obs:* Se quiser apenas pegar o indice(2ºvalor) é necessário passar o valor junto como parametro
+___
+
+## ➤ map[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/map.js)
+
+Map transforma um array em outro. Mas com o mesmo tamanho.<br>
+Ele monta o novo array levando em consideração o que voce quer modificar
+
+Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
+
+**Nota:** Posso deixar uma função dentro de uma variavel e chamar a variavel no map. Posso receber mais de uma função no map
+___
 ## ➤ Métodos[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/metodos.js)
 
 Nome | O que faz
@@ -24,7 +35,7 @@ push | Adiciona um elemento na ultima posição
 unshift | Adiciona um elemento na primeira posição
 splice | faz tudo
 slice | cria um novo array
-map | percorre array
+map | Transformar um array em outro com o mesmo tamanho
 filter | percorre array
 reduce | percorre array
 forEach | percorre array

@@ -25,6 +25,20 @@ Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
 
 **Nota:** Posso deixar uma função dentro de uma variavel e chamar a variavel no map. Posso receber mais de uma função no map
 ___
+
+## ➤ filter[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/filter.js)
+
+Criar um novo array, filtrando com condições.
+
+Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
+___
+
+## ➤ reduce[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/reduce.js)
+
+Criar um novo array, filtrando com condições.
+
+Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
+___
 ## ➤ Métodos[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/metodos.js)
 
 Nome | O que faz
@@ -36,7 +50,7 @@ unshift | Adiciona um elemento na primeira posição
 splice | faz tudo
 slice | cria um novo array
 map | Transformar um array em outro com o mesmo tamanho
-filter | percorre array
+filter | cria um novo array com uma condicao
 reduce | percorre array
 forEach | percorre array
 ___

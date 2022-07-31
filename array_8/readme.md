@@ -29,6 +29,21 @@ Essa função passa 3 parametros: (valor, indice e o array inteiro).<br>
 
 **Nota:** Posso deixar uma função dentro de uma variavel e chamar a variavel no map. Posso receber mais de uma função no map
 ___
+## ➤ FlatMap[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/flatmap.js)
+map associado com um concat
+
+>Transformo isso:
+~~~javascript
+[ [ 8.5, 9 ], [ 7.5, 6 ] ]
+~~~
+>Pra isso:
+~~~javascript
+[ 8.5, 9, 7.5, 6 ]
+~~~
+
+
+___
+
 
 ## ➤ filter[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/filter.js)
 

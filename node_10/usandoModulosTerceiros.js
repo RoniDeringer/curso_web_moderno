@@ -6,5 +6,5 @@ const _ = require('lodash')
 
 //exemplo utilizando a função random do lodash
 
-setInterval(() => console.log(_.random(1,1000)),2000)
+setInterval(() => console.log(_.random(1,10)),2000)
 

@@ -42,6 +42,8 @@ Quarto parametro é o array inteiro
 
 Obs: Caso voce nao passar valor inicial, ele vai pegar os valores de indice _0_ e _1_
 
+Outro exemplo de reduce: [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/ImperativoVsDeclarativo.js)
+
 ___
 ## ➤ Métodos[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/metodos.js)
 

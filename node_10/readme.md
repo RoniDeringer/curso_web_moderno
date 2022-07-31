@@ -44,3 +44,20 @@ Pra você conseguir tornar um módulo **púlbico** precisa ter a idéia de<br> `
     * EcmaScript 2015: que é um import/export
 
 Obs: Nos exemplos usados, eu usei o padrão do node: CommonJS
+
+___
+## ➤ Exportar[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/export.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/recebeExport.js)
+
+**exportar:** eu tenho 3 opções:<br>
+`this`, `module.exports` e `exports`
+
+porém, eles apontam pro *module.exports*<br>
+que é iniciado como um **Objeto vazio**<br>
+
+Então caso eu queira enviar um novo objeto, <br> ele deve ser criado somente a partir do `modulo.exports = {}.` 
+
+Mas posso implementar a partir das outras opções. Como:<br> 
+this.a = 1 <br>
+modulo.exports.b = 2<br>
+exports.c = 3
+

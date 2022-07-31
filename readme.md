@@ -1,6 +1,6 @@
 # 💻 Curso JS
 
-Repositório destinado a depositar códigos de JavaScript do [Curso Web da Udemy 🔗](https://www.udemy.com/course/curso-web/)
+Repositório destinado para estudos da linguagem JavaScript do [Curso Web da Udemy 🔗](https://www.udemy.com/course/curso-web/)
 ____
 ## 🚀 Run code
 Instale o [node.js](https://nodejs.org/en/)<br>

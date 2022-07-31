@@ -47,6 +47,7 @@ _*OBS:* Consigo usar o `this` apenas para um escopo (funcao, objeto, ...)_
 != undefined //serve para false também
 ~~~~
 
+`npm` é o gerenciador de pacotes do `node`
 ___
 ## 📋 Lista de conceitos 
 

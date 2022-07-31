@@ -59,8 +59,8 @@ Destructuring Objetct | self | freeze | slice
 Ternário| bind | keys | forEach
   -| tipos Param | values | map
   -| Contexto léxico | entries | reduce
-  -| Closure | defineProperty | -
-  -| Factory | assign | -
+  -| Closure | defineProperty | Imperativo
+  -| Factory | assign | Declarativo
   -| iife | herança | -
   -| call e apply | prototype | -
   -| - | super | -

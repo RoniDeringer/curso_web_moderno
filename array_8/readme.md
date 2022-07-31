@@ -8,6 +8,10 @@ ___
 `splice` incluir, excluir, modificar elementos
 ___
 
+## ➤ concat[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/concat.js)
+
+Concatenar varios arrays em um único array
+___
 ## ➤ forEach[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/array_8/foreach.js)
 
 o forEach tem como parâmetro uma função de callback, que é chamada pra cada indice do array

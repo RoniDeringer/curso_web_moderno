@@ -7,16 +7,11 @@ E também utiliza o `LIBUV` que trata de forma assíncrona o I/O
 
 **Vale Lembrar:** Cada arquivo equivale a um módulo
 
-
-
-
 ___
 ## ➤ `npm`
 
 `npm` é o gerenciador de pacotes do `node`<br>
 _Node Packet Manager_<br>
-Ou seja, voce baixa as bibliotecas do node a partir dele:<br>
-`npm install jquery`
 
 _Obs:_ Quando referenciar alguma biblioteca, usar o underline na frente. <br>
 Exemplo: `const _ = require('lodash')`

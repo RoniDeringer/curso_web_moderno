@@ -72,4 +72,19 @@ Ternário| bind | keys | forEach
   -| - | preventExtensions | -
   -| - | seal | -
   -| - | Classe | -
-
+___
+[Node](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10) | [-](-) | [-](-) | [-](-)
+----------| ------ | ------ | ------
+npm | - | - | -
+lodash | - | - | -
+nodemon | - | - | -
+CommonJS| - | - | -
+exportar | - | - | -
+reduce | - | - | -
+http (porta) | - | - | -
+Módulo | - | - | -
+x | - | - | -
+x | - | - | -
+x | - | - | -
+x | - | - | -
+x | - | - | -

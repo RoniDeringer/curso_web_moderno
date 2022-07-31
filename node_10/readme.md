@@ -30,6 +30,9 @@ Exemplo: `const _ = require('lodash')`
     * Consigo rodar aplicações a partir do nodemon
     * Vantagem é que ele atualiza sozinho a saída, só atualizar o código e salvar
 
+* `htpp` já vem junto com o node[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/http.js)
+    * Por isso não preciso especificar o caminho
+
 ___
 ## ➤ Sistema de `Módulo`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/moduloCliente.js)
 

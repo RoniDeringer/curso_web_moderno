@@ -10,4 +10,9 @@ for(let i=0; i<alunos.length; i++){
 }
 console.log('media: ', total1 / alunos.length)
 
+
 //Declativo
+const getNota = aluno => aluno.nota
+const soma = (total, atual) => total + atual
+const total2 = alunos.map(getNota).reduce(soma)
+console.log(total2 / alunos.length)

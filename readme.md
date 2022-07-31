@@ -62,9 +62,9 @@ Ternário| bind | keys | forEach
   -| Contexto léxico | entries | reduce
   -| Closure | defineProperty | Imperativo
   -| Factory | assign | Declarativo
-  -| iife | herança | -
-  -| call e apply | prototype | -
-  -| - | super | -
+  -| iife | herança | concat
+  -| call e apply | prototype | flatMap
+  -| - | super | Json
   -| - | shadowing | -
   -| - | Object.create | -
   -| - | for key | -

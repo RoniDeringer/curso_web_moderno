@@ -20,7 +20,8 @@ Ou seja, voce baixa as bibliotecas do node a partir dele:<br>
     * `npm i lodash` <br>
     * eu ignorei ele no git
 
-
+_Obs:_ Quando referenciar alguma biblioteca, usar o underline na frente. <br>
+Exemplo: `const _ = require('lodash')`
 
 ___
 ## ➤ Sistema de `Módulo`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/moduloCliente.js)

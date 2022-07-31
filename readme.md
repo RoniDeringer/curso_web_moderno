@@ -4,7 +4,7 @@ Repositório destinado a depositar códigos de JavaScript do [Curso Web da Udemy
 ____
 ## 🚀 Run code
 Instale o [node.js](https://nodejs.org/en/)
-
+rode: `npm i` para instalar as dependências do node
 
 * Instale a extensão `Code Runner` no vscode<br>
 `Ctrl+Alt+N` Pra rodar o código 

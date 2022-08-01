@@ -52,7 +52,11 @@ Para criar um arquivo **package.json** basta rodar: <br>
 `npm init` e vai respondendo as perguntas<br>
 ou: `npm init -y` pra responder sim pra todas as perguntas
 
-Exemplo usando requisição de um site remoto usando o axios [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/funcionarios.js) 
+* Exemplo usando requisição de um site remoto usando o axios [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/funcionarios.js) 
+
+* Exercicio usando um **array de objeto** web usando _filter_ e _reduce_[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/desafio.js) 
+
+
 
 
 ___

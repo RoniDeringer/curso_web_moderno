@@ -83,8 +83,8 @@ exportar | - | - | -
 require | - | - | -
 http (porta) | - | - | -
 Módulo | - | - | -
-x | - | - | -
-x | - | - | -
+axios | - | - | -
+Array objeto | - | - | -
 x | - | - | -
 x | - | - | -
 x | - | - | -

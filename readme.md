@@ -80,7 +80,7 @@ lodash | - | - | -
 nodemon | - | - | -
 CommonJS| - | - | -
 exportar | - | - | -
-reduce | - | - | -
+require | - | - | -
 http (porta) | - | - | -
 Módulo | - | - | -
 x | - | - | -

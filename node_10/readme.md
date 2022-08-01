@@ -46,6 +46,16 @@ Pra você conseguir tornar um módulo **púlbico** precisa ter a idéia de<br> `
 Obs: Nos exemplos usados, eu usei o padrão do node: CommonJS
 
 ___
+## ➤ package `json`
+
+Para criar um arquivo **package.json** basta rodar: <br>
+`npm init` e vai respondendo as perguntas<br>
+ou: `npm init -y` pra responder sim pra todas as perguntas
+
+Exemplo usando requisição de um site remoto usando o axios [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/funcionarios.js) 
+
+
+___
 ## ➤ Exportar[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/export.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/recebeExport.js)
 
 **exportar:** eu tenho 3 opções:<br>

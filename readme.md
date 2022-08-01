@@ -87,4 +87,6 @@ axios | - | - | -
 Array objeto | - | - | -
 cache | - | - | -
 factory | - | - | -
-x | - | - | -
+instância | - | - | -
+global | - | - | -
+ -| - | - | -

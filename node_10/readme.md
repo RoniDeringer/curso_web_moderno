@@ -73,11 +73,20 @@ ou: `npm init -y` pra responder sim pra todas as perguntas
 
 ___
 
+## ➤ global[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/globalCliente.js) 
+
+Caso eu queira adicionar uma função ou outra coisa dentro do global
+
+Obs: No exemplo que eu fiz, eu não atribui a importação a nenhuma váriavel, já que eu não enviei nada, eu apenas carreguei o módulo importado
+
+
+___
+
 ## ➤ Instância única vs Nova Instância
 
 Node faz **cache** de módulos que são importados a partir da função **require**
 
-Toda vez que você importar um módulo e quer q seja gerado um novo objeto. <br>
+Toda vez que você importar um módulo e quer q seja gerado uma nova instância de objeto. <br>
 Voce pode driblar usando a função **factory**.
 
 

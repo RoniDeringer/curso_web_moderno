@@ -85,6 +85,6 @@ http (porta) | - | - | -
 Módulo | - | - | -
 axios | - | - | -
 Array objeto | - | - | -
-x | - | - | -
-x | - | - | -
+cache | - | - | -
+factory | - | - | -
 x | - | - | -

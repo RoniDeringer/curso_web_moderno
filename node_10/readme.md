@@ -46,20 +46,6 @@ Pra você conseguir tornar um módulo **púlbico** precisa ter a idéia de<br> `
 Obs: Nos exemplos usados, eu usei o padrão do node: CommonJS
 
 ___
-## ➤ package `json`
-
-Para criar um arquivo **package.json** basta rodar: <br>
-`npm init` e vai respondendo as perguntas<br>
-ou: `npm init -y` pra responder sim pra todas as perguntas
-
-* Exemplo usando requisição de um site remoto usando o axios [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/funcionarios.js) 
-
-* Exercicio usando um **array de objeto** web usando _filter_ e _reduce_[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/desafio.js) 
-
-
-
-
-___
 ## ➤ Exportar[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/export.js) | [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/recebeExport.js)
 
 **exportar:** eu tenho 3 opções:<br>
@@ -74,4 +60,25 @@ Mas posso implementar a partir das outras opções. Como:<br>
 this.a = 1 <br>
 modulo.exports.b = 2<br>
 exports.c = 3
+___
+## ➤ package `json`
+
+Para criar um arquivo **package.json** basta rodar: <br>
+`npm init` e vai respondendo as perguntas<br>
+ou: `npm init -y` pra responder sim pra todas as perguntas
+
+* Exemplo usando requisição de um site remoto usando o axios [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/funcionarios.js) 
+
+* Exercicio usando um **array de objeto** web usando _filter_ e _reduce_[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/desafio.js) 
+
+___
+
+## ➤ Instância única vs Nova Instância
+
+Node faz **cache** de módulos que são importados a partir da função **require**
+
+Toda vez que você importar um módulo e quer q seja gerado um novo objeto. <br>
+Voce pode driblar usando a função **factory**.
+
+
 

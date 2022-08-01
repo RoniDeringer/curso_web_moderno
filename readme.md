@@ -89,4 +89,6 @@ cache | - | - | -
 factory | - | - | -
 instância | - | - | -
 global | - | - | -
- -| - | - | -
+this| - | - | -
+this| - | - | -
+this| - | - | -

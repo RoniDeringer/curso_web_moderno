@@ -72,14 +72,11 @@ ou: `npm init -y` pra responder sim pra todas as perguntas
 * Exercicio usando um **array de objeto** web usando _filter_ e _reduce_[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/desafio.js) 
 
 ___
-
 ## ➤ global[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/globalCliente.js) 
 
 Caso eu queira adicionar uma função ou outra coisa dentro do global
 
 Obs: No exemplo que eu fiz, eu não atribui a importação a nenhuma váriavel, já que eu não enviei nada, eu apenas carreguei o módulo importado
-
-
 ___
 
 ## ➤ Instância única vs Nova Instância
@@ -88,6 +85,15 @@ Node faz **cache** de módulos que são importados a partir da função **requir
 
 Toda vez que você importar um módulo e quer q seja gerado uma nova instância de objeto. <br>
 Voce pode driblar usando a função **factory**.
+___
+## ➤ this
+
+**this** fora de uma função aponta para **module.exports**
+
+e dentro de uma função o **this** aponta para **global**
+
+_Obs:_ Isso não vale para arrow function
+___
 
 
 

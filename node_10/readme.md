@@ -94,6 +94,12 @@ e dentro de uma função o **this** aponta para **global**
 
 _Obs:_ Isso não vale para arrow function
 ___
+## ➤ **Módulo** Parâmetros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/passandoParametrosCliente.js) 
+]
+_Obs:_ os: `...` dizem que os parametros são variaveis, ou seja, podem ter vários
+
+Eu posso exportar uma Função em módulo para outro, assim como seus parâmetros<br> 
+___
 
 
 

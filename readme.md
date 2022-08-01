@@ -90,5 +90,5 @@ factory | - | - | -
 instância | - | - | -
 global | - | - | -
 this| - | - | -
-this| - | - | -
-this| - | - | -
+...| - | - | -
+param variaveis| - | - | -

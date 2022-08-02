@@ -71,6 +71,10 @@ ou: `npm init -y` pra responder sim pra todas as perguntas
 
 * Exercicio usando um **array de objeto** web usando _filter_ e _reduce_[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/funcionarios/desafio.js) 
 
+Com esse arquivo, eu posso: 
+* instalar a pasta *node_modules* a partir de `npm i`
+* Criar scripts
+
 ___
 ## ➤ global[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/globalCliente.js) 
 
@@ -95,10 +99,23 @@ e dentro de uma função o **this** aponta para **global**
 _Obs:_ Isso não vale para arrow function
 ___
 ## ➤ **Módulo** Parâmetros variáveis[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/passandoParametrosCliente.js) 
-]
+
 _Obs:_ os: `...` dizem que os parametros são variaveis, ou seja, podem ter vários
 
 Eu posso exportar uma Função em módulo para outro, assim como seus parâmetros<br> 
+___
+## ➤ **File system (fs)** Lendo .json[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/arquivoLendo.js) 
+
+_Obs:_ o módulo fs já vem com padrão pelo node.
+
+Nesse exemplo eu li todo o conteudo de um pasta
+
+Posso adotar 2 estratégias pra ler o arquivo:
+*   De forma **Sincrona**
+    * Porém pode travar no event loop;
+    * Não é uma estratégia muito interessante....
+*   De forma **Assincrona**
+    * Passa uma callback que vai ser chamado quando o arquivo for carregado
 ___
 
 

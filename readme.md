@@ -96,3 +96,5 @@ File system (fs)| - | - | -
 lendo .json| - | - | -
 JSON.parse| - | - | -
 create json| - | - | -
+read json| - | - | -
+Middleware| - | - | -

@@ -61,6 +61,27 @@ this.a = 1 <br>
 modulo.exports.b = 2<br>
 exports.c = 3
 ___
+## ➤ Padrão **Middleware**[🔗](#)
+
+_Padrão chain of responsibility_<br>
+**Express** é fortemente baseado nesse padrão
+
+    Esse padrão se baseia em dividir em passos reutilizáveis:
+    Caso eu queira dividir uma função em 3 etapas pra ela ser reutilizada
+        Eu faço em 3 funções: PassoA(), PassoB() e PassoC()
+        Porém desse modo eu ficaria "amarrado", pois toda vez q eu chamar a 
+        função 'PassoA()' eu teria que chamar a função PassoB() consequentemente.
+    
+    O padrão middleware resolve isso, usando a função next(), que ela invoca o 
+    próximo passo, podendo ser qualquer função.
+    Então não existe mais esse acoplamento de cadeia(passos).
+
+No _Express_ uma função no padrão middleware tem 3 parametros:
+    <br>1. Requisição
+    <br>2. Resposta
+    <br>3. next
+
+___
 ## ➤ package `json`
 
 Para criar um arquivo **package.json** basta rodar: <br>
@@ -116,11 +137,14 @@ Posso adotar 2 estratégias pra ler o arquivo:
     * Não é uma estratégia muito interessante....
 *   De forma **Assincrona**
     * Passa uma callback que vai ser chamado quando o arquivo for carregado
+
+_read json_
 ___
 ## ➤ Escrevendo arquivo [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/arquivoEscrita.js) 
 
 Criando um arquivo json a partir de um objeto criado em um módulo js
 
+_create json_
 ___
 
 

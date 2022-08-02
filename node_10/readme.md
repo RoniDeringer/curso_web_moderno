@@ -20,17 +20,20 @@ Exemplo: `const _ = require('lodash')`
     npm i
     -g significa que está instalando global ou seja, não vai ser criado na pasta executada
 
-* Instalei o `lodash` a partir do comando:
+* Instalei o **lodash** a partir do comando:
     * `npm i lodash` <br>
     * eu ignorei ele no git
 
-* Instalei o `nodemon` a partir do comando:
+* Instalei o **nodemon** a partir do comando:
     * `npm i -g nodemon` <br>
     * Agora eu tenho o comando `nodemon`
     * Consigo rodar aplicações a partir do nodemon
     * Vantagem é que ele atualiza sozinho a saída, só atualizar o código e salvar
 
-* `htpp` já vem junto com o node[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/http.js)
+* Alguns módulos já vem pré instalados:
+    * Como o caso do **File System** (fs)[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/arquivoLendo.js);
+        * Que permite eu gravar e ler arquivos json
+    * E o **htpp** [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/http.js)
     * Por isso não preciso especificar o caminho
 
 ___
@@ -61,7 +64,7 @@ this.a = 1 <br>
 modulo.exports.b = 2<br>
 exports.c = 3
 ___
-## ➤ Padrão **Middleware**[🔗](#)
+## ➤ Padrão **Middleware**[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/middleware.js)
 
 _Padrão chain of responsibility_<br>
 **Express** é fortemente baseado nesse padrão

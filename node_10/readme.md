@@ -77,8 +77,8 @@ _Padrão chain of responsibility_<br>
     Então não existe mais esse acoplamento de cadeia(passos).
 
 No _Express_ uma função no padrão middleware tem 3 parametros:
-    <br>1. Requisição
-    <br>2. Resposta
+    <br>1. Request (Requisição)
+    <br>2. Response (Resposta)
     <br>3. next
 
 ___

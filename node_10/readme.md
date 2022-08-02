@@ -32,7 +32,7 @@ Exemplo: `const _ = require('lodash')`
 
 * Alguns módulos já vem pré instalados:
     * Como o caso do **File System** (fs)[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/arquivoLendo.js);
-        * Que permite eu gravar e ler arquivos json
+        * Que permite gravar e ler arquivos json
     * E o **htpp** [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/http.js)
     * Por isso não preciso especificar o caminho
 
@@ -40,7 +40,7 @@ ___
 ## ➤ Sistema de `Módulo`[🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/moduloCliente.js)
 
 
-Pra você conseguir tornar um módulo **púlbico** precisa ter a idéia de<br> `exportar` e `importar` algo a partir de outro arquivo
+Pra conseguir tornar um módulo **púlbico** precisa ter a idéia de<br> `exportar` e `importar` algo a partir de outro arquivo(módulo)
 
 * 2 Padrões de módulos em node:
     * CommonJS: Padrão usado no node 

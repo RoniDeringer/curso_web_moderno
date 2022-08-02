@@ -117,6 +117,11 @@ Posso adotar 2 estratégias pra ler o arquivo:
 *   De forma **Assincrona**
     * Passa uma callback que vai ser chamado quando o arquivo for carregado
 ___
+## ➤ Escrevendo arquivo [🔗](https://github.com/RoniDeringer/curso_web_moderno/blob/master/node_10/arquivoEscrita.js) 
+
+Criando um arquivo json a partir de um objeto criado em um módulo js
+
+___
 
 
 

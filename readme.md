@@ -95,3 +95,4 @@ param variaveis| - | - | -
 File system (fs)| - | - | -
 lendo .json| - | - | -
 JSON.parse| - | - | -
+create json| - | - | -

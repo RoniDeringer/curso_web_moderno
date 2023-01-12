@@ -41,14 +41,36 @@
         </ul>
     </div>
     <form>
-        <input type='text' name='texto'>
-        <input type='password' name='senha'>
+        <input type='text' name='texto' placeholder="texto">
+        <input type='password' name='senha' id="senha" placeholder="senha">
         <input type='checkbox' name='check1'>
         <input type='radio' name='radio1'>
         <input type='file' name='arquivo'>
     </form>
 
     <script>
+        $('#feira').addClass('destaque').removeClass('destaque')
+        $('li').addClass('destaque')
+        $('[wm-obrigatorio]').removeClass('destaque') //remove destaque feijao
+        $('li.opcional').removeClass('destaque')
+        $('div p span').addClass('destaque') //nao precisa ser em sequencia
+
+        //exclusivos do jquery
+        $('li:first').css('border', '1px solid white') //primeiro
+        $('li:odd').css('border', '1px solid orange') //impares
+        $('li:gt(1)').css('border', '1px solid blue') //maior que 1
+        $('li:not(:last)').css('font-size', ' 2.0em') //todos menos o ultimo
+        $('li:contains("r")').css('background-color', 'black')
+
+        //Formularios
+        $('form *').hide()
+        $('form :text').show()
+        $('#senha').show()
+        $('form :checkbox').show()
+        $('form :radio').show()
+        $('form :file').show()
+
+
 
     </script>
 </body>

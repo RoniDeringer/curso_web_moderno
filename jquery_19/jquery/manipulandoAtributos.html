@@ -22,6 +22,7 @@
 <body class='conteudo exercicio'>
     <h1>Manipulando Atributos</h1>
     <div wm-relogio='1000'></div>
+    <div wm-relogio='3000'></div>
     <script>
 
         function Relogio(elemento) {
@@ -58,6 +59,11 @@
         $('[wm-relogio]').each((i, e) => new Relogio(e))
 
         //exemplos
+
+        // $('[wm-relogio]').attr('opa') // ler
+        // $('[wm-relogio]').attr('opa', 3) //alterar ou inlcuir
         $('[wm-relogio]').attr({ opa: 1, novo: true }) //coloca as propriedades dentro da div
+        $('[wm-relogio]').removeAttr('opa')
+
     </script>
 </body>

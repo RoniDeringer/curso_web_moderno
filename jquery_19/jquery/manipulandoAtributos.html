@@ -46,6 +46,7 @@
             }
 
             const alterarIntervalo = delta => {
+                //Math.max = sempre vai pegar o maior dos 2 parametros
                 const novo = Math.max(getIntervaloAtual() + delta, 1000)
                 $elemento.attr('wm-relogio', novo)
                 iniciar()

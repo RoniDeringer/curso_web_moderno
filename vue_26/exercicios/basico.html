@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conceitos Básicos</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/vue.min.js"></script>
+</head>
+
+<body class="exercicio">
+
+    <!-- template: -->
+    <div id="app">
+        <p>1) {{ 2+ 2 }}</p>
+        <p>2) {{ "teste".toUpperCase() }}</p>
+        <p>3) Produto: {{ nome }}, R${{ preco }}, {{ desc * 100 }}% </p>
+        <p>4) Dia: {{ dataAtual() }} </p>
+        <p>5) Preco com desconto: R${{ calculatePrice }} </p>
+    </div>
+    <script>
+        // vue instance que recebe um objeto como parametro
+        new Vue({
+            el: "#app",
+            data: {
+                nome: "Caneta",
+                preco: 6.99,
+                desc: 0.15,
+            },
+            methods: {
+                dataAtual() {
+                    let date = new Date()
+                    let dia = date.getDate()
+                    let mes = [
+                        'janeiro', 'fevereiro', 'março', 'abril',
+                        'maio', 'junho', 'julho', 'agosto', 'setembro',
+                        'outubro', 'novembro', 'dezembro'
+                    ][date.getMonth()]
+                    let ano = date.getFullYear()
+                    return `${dia} de ${mes} de ${ano}`
+                }
+            },
+            computed: {
+                calculatePrice() {
+                    return this.preco * (1 - this.desc)
+                }
+
+            }
+        })
+    </script>
+</body>
+
+</html>
